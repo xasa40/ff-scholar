@@ -39,3 +39,8 @@ You don't need to manually write out your bibliography at the end of the documen
 4. In your text (`01_thesis_text.typ`), simply type `@smith2024` to generate an automatic citation. The template will automatically add it to the bibliography at the end of your PDF!
 
 *(If you are struggling to find a BibTeX format, you can fill the entry manually, use AI tools to generate it (don't forget to check the output). **Learning ZOTERO is HIGHLY recommended in the future!**)*
+
+## BEFORE SUBMITTING THE THESIS
+// NOTE: Page numbers here won't match the final PDF.
+// Use 99_final_thesis.typ to check final pagination.
+// Use @labels for cross-references, not page numbers.

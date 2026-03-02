@@ -3,11 +3,11 @@
 // This is the only file you compile. Don't edit it.
 // ============================================================
 
-#import "src/settings.typ": *
+#import "src/settings.typ": body-font 
 #import "src/utils.typ": *
 
-
-// --- Preamble (roman page numbers, no heading numbering) ---
+#set page(numbering: none) // counts the pages but does not insert numbers
+#counter(page).update(1) 
 
 #include "preamble/00_title_page.typ"
 #include "preamble/01_acknowledgement.typ"
@@ -20,9 +20,7 @@
 #outline(title: "Obsah", indent: auto)
 #pagebreak(weak: true, to: "odd")
 
-// --- Main text (arabic page numbers) ---
-#set page(numbering: "1")
-#counter(page).update(11)
+// --- Main text ---
+#set page(numbering: "1")  // now START showing the page numbers
 
 #include "01_thesis_text.typ"
-
