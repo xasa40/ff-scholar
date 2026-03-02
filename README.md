@@ -6,14 +6,10 @@ Designed specifically with beginners in mind, this template is meant primarily f
 
 > **Note:** This project is a work in progress. It is not officially endorsed by the university. Please always double-check the final output against your specific department's guidelines. If anything breaks, or if you'd like to improve the template, contributions are welcome!
 
----
-
 ## Why use this template?
 
 * **Fully Formatted:** Pre-configured to meet general FF UK thesis standards (margins, title pages, spacing, and fonts). 
 * **Painless Bibliography:** Typst handles citations and your bibliography automatically. Everything is set up for FF UK citation styles.
-
----
 
 ## Getting Started
 
@@ -27,21 +23,9 @@ You don't need to install anything on your computer to use this template. Everyt
 6. **Final touch:** Feel free to delete the automatically created "main.typ" file as well as "README.md" and "TODOS.md" files.
 7. **Write:** Click the 01_thesis_text.typ and the "eye" icon next to it. Start writing. To see your full thesis, click the eye icon next to 99_compile_everything.typ file.
 
----
-
 ## Using the Template
 
 To keep things organized and prevent you from scrolling through thousands of lines of code, the thesis is divided into multiple files and folders. 
-
-### The Core Structure
-* **`src/99_compile_everything.typ`**: ⭐️ **This is your main file.** This is the file you must have open and selected in Typst to see the final PDF. It stitches all the other files together.
-* **`preambule/`**: Contains the introductory pages of your thesis. 
-  * Open `00_title_page.typ` to fill in your name, thesis title, and department.
-  * Fill in your acknowledgements and abstracts in their respective files here.
-* **`src/`**: Contains the actual text and settings.
-  * `01_thesis_text.typ`: **This is where you will spend 90% of your time.** Write the actual chapters of your thesis here.
-  * `settings.typ` & `utils.typ`: Under-the-hood settings. You only touch these if you know what you are doing.
-* **`02_bibliography.bib`**: Your bibliography database. Use `BibTeX` format.
 
 ### How to do Citations
 
