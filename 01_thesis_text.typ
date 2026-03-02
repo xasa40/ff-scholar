@@ -5,55 +5,52 @@
 // they have no number and yet are in the outline.
 // Don't touch #bibliography and - 
 // DON'T FORGET TO COMPILE EVERYTHING AND SUBMIT THE FINAL, COMPLETE PDF
+//
+// feel free to delete the lines starting with '//' - 
+// those are just comments in typst
 // ============================================================
 #import "./src/settings.typ": *
 #show: page-setup
 
 #heading(numbering: none)[Úvod]
-#lorem(200)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
 = Název kapitoly
-#lorem(200)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
-#lorem(200)
-
-#lorem(200)
-
-#lorem(200)
-
-#lorem(250)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
 == Název podkapitoly
-#lorem(200)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
-#lorem(200)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
-#lorem(200)
 === Název pod-pod-kapitoly
-#lorem(200)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
-#lorem(200)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
-#lorem(200)
+= Název další kapitoly
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
-== Název další podkapitoly
-#lorem(200)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
-#lorem(200)
-
-#lorem(200)
-
-#lorem(200)
-
-#lorem(200)
+= Typst Helper
+This template offers some tools to help you write out the thesis better and help you keep some notes for yourself.
 
 #heading(numbering: none)[Závěr]
-#lorem(80)
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Mauris elementum mauris vitae tortor. Maecenas libero. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aenean id metus id velit ullamcorper pulvinar. Praesent dapibus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
 
 // --- Bibliography ---
 #pagebreak(weak: true)
 #bibliography("02_bibliography.bib", title:"Seznam literatury", style: "chicago-notes")
 
-// DON'T FORGET TO COMPILE EVERYTHING AND SUBMIT THE FINAL, COMPLETE PDF
-// DON'T FORGET TO COMPILE EVERYTHING AND SUBMIT THE FINAL, COMPLETE PDF
 // DON'T FORGET TO COMPILE EVERYTHING AND SUBMIT THE FINAL, COMPLETE PDF

@@ -54,51 +54,51 @@
   )
   // Nastavení nadpisů
   set heading(numbering: "1.1.1.1.")
-  
-show heading.where(level: 1): it => {
-  pagebreak(weak: true)
-  pad(top: 1cm, bottom: 0.5cm)[
-    #text(size: 16pt, weight: "bold")[
-      #if it.numbering != none {
-        counter(heading).display() + ""
-      }
-      #it.body
+    
+  show heading.where(level: 1): it => {
+    pagebreak(weak: true)
+    pad(top: 1cm, bottom: 0.5cm)[
+      #text(size: 16pt, weight: "bold")[
+        #if it.numbering != none {
+          counter(heading).display() + ""
+        }
+        #it.body
+      ]
     ]
-  ]
-}
+  }
 
-show heading.where(level: 2): it => {
-  pad(top: 0.5cm, bottom: 0.3cm)[
-    #text(size: 14pt, weight: "bold")[
-      #if it.numbering != none {
-        counter(heading).display() + ""
-      }
-      #it.body
+  show heading.where(level: 2): it => {
+    pad(top: 0.5cm, bottom: 0.3cm)[
+      #text(size: 14pt, weight: "bold")[
+        #if it.numbering != none {
+          counter(heading).display() + ""
+        }
+        #it.body
+      ]
     ]
-  ]
-}
+  }
 
-show heading.where(level: 3): it => {
-  pad(top: 0.3cm, bottom: 0.2cm)[
-    #text(size: 12pt, weight: "bold")[
-      #if it.numbering != none {
-        counter(heading).display() + ""
-      }
-      #it.body
+  show heading.where(level: 3): it => {
+    pad(top: 0.3cm, bottom: 0.2cm)[
+      #text(size: 12pt, weight: "bold")[
+        #if it.numbering != none {
+          counter(heading).display() + ""
+        }
+        #it.body
+      ]
     ]
-  ]
-}
+  }
 
-show heading.where(level: 4): it => {
-  pad(top: 0.2cm, bottom: 0.1cm)[
-    #text(size: 12pt, weight: "bold", style: "italic")[
-      #if it.numbering != none {
-        counter(heading).display() + ""
-      }
-      #it.body
+  show heading.where(level: 4): it => {
+    pad(top: 0.2cm, bottom: 0.1cm)[
+      #text(size: 12pt, weight: "bold", style: "italic")[
+        #if it.numbering != none {
+          counter(heading).display() + ""
+        }
+        #it.body
+      ]
     ]
-  ]
-}
+  }
   
   doc
 }

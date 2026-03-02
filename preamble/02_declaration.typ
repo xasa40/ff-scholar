@@ -3,7 +3,7 @@
 // ============================================================
 
 
-#import "../00_set_everything_up.typ": *
+#import "../00_setup.typ": *
 #import "../src/settings.typ": *
 #set text(font: body-font)
 #set par(

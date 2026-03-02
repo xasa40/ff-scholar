@@ -16,6 +16,7 @@
 #include "preamble/04_keywords.typ"
 
 // --- Table of contents ---
+#set text(font: body-font)
 #outline(title: "Obsah", indent: auto)
 #pagebreak(weak: true, to: "odd")
 
