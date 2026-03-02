@@ -11,6 +11,8 @@ Designed specifically with beginners in mind, this template is meant primarily f
 * **Fully Formatted:** Pre-configured to meet general FF UK thesis standards (margins, title pages, spacing, and fonts). 
 * **Painless Bibliography:** Typst handles citations and your bibliography automatically. Everything is set up for FF UK citation styles.
 
+This template is primarily intended for FF UK (Faculty of Arts) as it were made according to the [intructions and officially propagated template](https://www.ff.cuni.cz/studium/bakalarske-a-magisterske-studium/uspesne-dokonceni-studia/zaverecne-prace/metodicke-pokyny-doporucena-formalni-uprava-zaverecne-kvalifikacni-prace/) although it can also be used elsewhere too. Edit for using it for regular theses is also planned.
+
 ## Getting Started
 
 You don't need to install anything on your computer to use this template. Everything runs in your browser.
