@@ -4,7 +4,11 @@
   word-count(
     exclude: (bibliography, outline, <thesis-stats>),
     total => {
-      let estimated-spaces = calc.round(total.words * 0.986)
+      let estimated-spaces = calc.round(total.words * 0.986) 
+      // typst does not count spaces between words
+      // but (almost) every word has space after it 
+      // - thus we add the number of words - with an estimate of 
+      // 0.986 as some words end by e.g. new line
       let chars-with-spaces = total.characters + estimated-spaces
       let ns = calc.round(chars-with-spaces / 1800, digits: 2)
       
