@@ -23,21 +23,6 @@
             [Znaky (vč. mezer): #chars-with-spaces],
             [*Normostrany: #ns*]
           )
-          
-          #v(1em)
-          
-          #block(
-            fill: luma(245),
-            inset: 10pt,
-            radius: 4pt,
-            width: 100%,
-          )[
-            #text(size: 8pt)[
-              *Note on Normostrany counter:* This counter calculates standard pages based on the 1800-character Czech/Slovak norm. 
-              - *Precision:* It uses the $N-1$ space rule ($"Total Characters" + "Words" - 1$), which aligns with standard PDF and web character counters.
-              - *Exclusions:* Unlike raw text counters, this excludes the bibliography and outline to give you a true "content-only" count.
-            ]
-          ]
         ] <thesis-stats>
       ]
     }
